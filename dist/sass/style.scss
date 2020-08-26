@@ -1,0 +1,175 @@
+
+hr
+display: flex
+align-content: space-around
+background-color: #888888
+height: 3px
+margin: 0 120px 50px
+border: 0
+
+.slick-track
+  display: flex
+  justify-content: center
+
+.slick-list
+  overflow: hidden
+  width: 1200px
+  justify-content: center
+
+.slider
+  margin: 0 95px 0
+  display: flex
+  justify-content: center
+
+.slider__item
+  width: 100%
+  padding-left: 20px
+  padding-right: 20px
+  margin: 0 5px
+  overflow: hidden
+  -webkit-transition: 0.5s linear
+
+  &:hover
+    margin: -25px 5px
+    opacity: 0.7
+    transition: 0.3s linear
+
+.slider__img
+  -webkit-transition: 0.3s linear
+  padding-top: 40px
+
+  &:hover
+    transition: 0.3s linear
+    -webkit-transform: rotate(4deg) scale(1.05)
+    transition: transform 0.3s linear
+
+.slider__title
+  display: flex
+  margin: 16px 0
+  font-family: 'Philosopher', sans-serif
+  font-size: 16px
+  color: #b75f5b
+  font-weight: 600
+
+.slider__icon
+  position: relative
+  margin-right: 13px
+
+  &:hover
+    background: url("/Users/Veterochek/Desktop/Involta/MyProject/Images/list2.jpg") no-repeat
+    transition: 0.3s linear
+
+.slider__suptitle
+  font-family: 'Noto Serif', serif
+  font-weight: 700
+  color: #231f20
+  position: relative
+  width: 185px
+  font-size: 16px
+
+.slider__text
+  font-family: 'Noto Serif', serif
+  color: #616161
+  font-size: 14px
+  margin: 15px 0
+  font-weight: 500
+
+.slider__date
+  color: #b1b1b1
+  font-size: 10px
+  font-family: 'Noto Serif', serif
+
+@media (max-width: 768px)
+  .slider__item
+    width: auto
+
+  .slider__img
+    width: 200px
+
+  .slider__title
+    font-size: 14px
+
+  .slider__icon
+    width: 11px
+
+  .slider__suptitle
+    width: 185px
+    font-size: 14px
+
+  .slider__text
+    font-size: 10px
+    width: 200px
+
+  .slider__date
+    font-size: 8px
+
+@media (min-width: 768px)
+  .slider__item
+    width: 100%
+
+  .slider__img
+    width: 200px
+
+  .slider__title
+    font-size: 14px
+
+  .slider__icon
+    width: 11px
+
+  .slider__suptitle
+    width: 185px
+    font-size: 14px
+
+  .slider__text
+    font-size: 10px
+    width: 200px
+
+  .slider__date
+    font-size: 8px
+
+@media (min-width: 1024px)
+  .slider__item
+    width: 100%
+
+  .slider__img
+    width: 250px
+
+  .slider__title
+    font-size: 16px
+
+  .slider__icon
+    width: 13px
+
+  .slider__suptitle
+    width: 185px
+    font-size: 16px
+
+  .slider__text
+    font-size: 16px
+    width: 250px
+
+  .slider__date
+    font-size: 10px
+
+@media (min-width: 1200px)
+  .slider__item
+    width: 100%
+
+  .slider__img
+    width: 220px
+
+  .slider__title
+    font-size: 15px
+
+  .slider__icon
+    width: 13px
+
+  .slider__suptitle
+    font-size: 16px
+
+  .slider__text
+    font-size: 14px
+    width: 220px
+
+  .slider__date
+    font-size: 12px
